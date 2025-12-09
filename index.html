@@ -1,9 +1,54 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <img src="images/logo.png">
-        <script src="index.js"></script>
-    </body>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <title>Oldgram</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div>
+          <img class="avatar" src="images/logo.png" alt="Logo of the app." />
+          <img
+            class="avatar"
+            src="images/user-avatar.png"
+            alt="Profile picture of Per."
+          />
+        </div>
+      </header>
+      <div class="post">
+        <div class="post-info">
+          <img
+            class="avatar"
+            src="images/avatar-vangogh.jpg"
+            alt="Porfile picture of Vincent Van Gogh."
+          />
+          <p class="avatar-name">Vincent Van Gogh</p>
+          <p class="avatar-location">Zudeth, Netherlands</p>
+        </div>
+        <img
+          class="post-img"
+          src="images/post-vangogh.jpg"
+          alt="Self-portrait of Vincent Van Gogh."
+        />
+        <div class="post-reactions">
+          <img class="icon" src="images/icon-heart.png" alt="Like icon." />
+          <img class="icon" src="images/icon-comment.png" alt="Comment icon." />
+          <img class="icon" src="images/icon-dm.png" alt="DM icon." />
+        </div>
+        <div class="comment-section">
+          <p class="likes">20k likes</p>
+          <p class="comments">
+            <span>vincey1853</span> just took a few mushrooms lol
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
